@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Potta One', cursive;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    color: white;
+    font-size: larger;
+}
+
+
+.container{
+    width: 54%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 175px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("../assets/img/pattern.png");
+    background-size: 200px;
+    display: inline-block;
+
+}
+
+.card-front{
+    width: 175px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url("../assets/img/noun_air_balloon_3134741.png");
+    background-size: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+
+.container >.card :hover{
+    width: 60%;
+}
+
+footer{
+    text-align: center;
+    font-size: medium;
+}
