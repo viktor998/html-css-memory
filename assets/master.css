@@ -35,6 +35,8 @@ header{
     display: inline-block;
 }
 
+
+
 [class^="overlay"]{
     width: 175px;
     height: 200px;
@@ -43,6 +45,13 @@ header{
     border-radius: 10px;
     opacity: 0;
 }
+[class^="overlay"] h2{
+    font-size: 25px;
+    padding-top: 150px;
+    padding-left: 15%;
+    
+    
+}
 
 .overlay {
     
@@ -50,7 +59,7 @@ header{
     top: 0;
     background: url("../assets/img/noun_air_balloon_3134741.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -63,7 +72,7 @@ header{
     top: 0;
     background: url("../assets/img/noun_Bicycle_3134821.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -76,7 +85,7 @@ header{
     top: 0;
     background: url("../assets/img/noun_Cruise_Ship_3134824.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
     
@@ -88,7 +97,7 @@ header{
     top: 0;
     background: url("../assets/img/noun_Submarine_3134738.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -100,7 +109,7 @@ header{
     top: 205px;
     background: url("../assets/img/noun_Tractor_3134797.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -112,7 +121,7 @@ header{
     top: 205px;
     background: url("../assets/img/noun_Tram_3134750.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -124,7 +133,7 @@ header{
     top: 205px;
     background: url("../assets/img/noun_air_balloon_3134741.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -136,7 +145,7 @@ header{
     top: 205px;
     background: url("../assets/img/noun_Bicycle_3134821.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -148,7 +157,7 @@ header{
     top: 410px;
     background: url("../assets/img/noun_Cruise_Ship_3134824.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -160,7 +169,7 @@ header{
     top: 410px;
     background: url("../assets/img/noun_Submarine_3134738.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -172,7 +181,7 @@ header{
     top: 410px;
     background: url("../assets/img/noun_Tractor_3134797.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
@@ -184,7 +193,7 @@ header{
     top: 410px;
     background: url("../assets/img/noun_Tram_3134750.png");
     background-position: center;
-    background-size: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 
