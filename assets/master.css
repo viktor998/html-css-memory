@@ -21,36 +21,164 @@ header{
 .container{
     width: 54%;
     margin: 0 auto;
+    position: relative;
 }
 
-.card {
+[class^="card"]{
+
     width: 175px;
-    height: 190px;
+    height: 200px;
+    background: url("../assets/img/pattern.png");
     border: 1px solid black;
     border-radius: 10px;
-    background-image: url("../assets/img/pattern.png");
     background-size: 200px;
     display: inline-block;
+    
 
 }
 
-.card-front{
+.overlay {
     width: 175px;
-    height: 190px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../assets/img/noun_air_balloon_3134741.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: white;
-    background-image: url("../assets/img/noun_air_balloon_3134741.png");
-    background-size: 170px;
+    opacity: 0;
+}
+
+
+
+.overlay2 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 182px;
+    top: 0;
+    background: url("../assets/img/noun_Bicycle_3134821.png");
     background-position: center;
+    background-size: 150px;
     background-repeat: no-repeat;
-    display: inline-block;
-
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
 }
 
-.container >.card :hover{
-    width: 60%;
+
+
+.overlay3 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 363px;
+    top: 0;
+    background: url("../assets/img/noun_Cruise_Ship_3134824.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
 }
+
+.overlay4 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 544px;
+    top: 0;
+    background: url("../assets/img/noun_Submarine_3134738.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.overlay5 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 205px;
+    background: url("../assets/img/noun_air_balloon_3134741.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.overlay6 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 183px;
+    top: 205px;
+    background: url("../assets/img/noun_Bicycle_3134821.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.overlay7 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 363px;
+    top: 205px;
+    background: url("../assets/img/noun_Cruise_Ship_3134824.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.overlay8 {
+    width: 175px;
+    height: 200px;
+    position: absolute;
+    left: 544px;
+    top: 205px;
+    background: url("../assets/img/noun_Submarine_3134738.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.card:hover .overlay, .card2:hover .overlay2,
+.card3:hover .overlay3, .card4:hover .overlay4,
+.card5:hover .overlay5, .card6:hover .overlay6,
+.card7:hover .overlay7, .card8:hover .overlay8 {
+    opacity: 1;
+}
+
+
+
+
 
 footer{
     text-align: center;
